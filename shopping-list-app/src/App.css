@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #447799;
+}
+
+.container {
+  max-width: 450px;
+  padding: 1em;
+  margin: auto;
+  margin-top: 5em;
+  color: #F1FAEE;
+  background-color: #E63946;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #000;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.inputBox {
+  background-color: #F1FAEE;
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputBox input{
+  padding: 2px;
+  padding-left: 10px;
+  border: 0;
+  outline: none;
+  width: 80%;
+  background-color: transparent;
+}
+
+.inputBox input:focus{
+  border: 0;
+}
+
+.faIconAdd{
+  color: #E63946;
+  font-size: large;
+  margin-right: 8px;
+}
+
+.item{
+  color: #fff;
+  margin: 1em;
+  border-bottom: 1px solid #eee;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.qtyPart {
+  background-color: #A8DADC;
+  color: #000;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+.qtyNumber{
+  margin-left: 4px;
+  margin-right: 4px;
+}
