@@ -14,7 +14,7 @@ function App() {
 
   const inputHandler = e => {
     let textEntered = e.target.value;
-    if(textEntered.length == 0){
+    if(textEntered.length === 0){
       setFilteredList(list)
     } else {
       let tempList = filteredList.filter(item => item.name.includes(textEntered));
